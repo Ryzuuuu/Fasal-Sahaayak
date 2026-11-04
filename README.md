@@ -156,7 +156,7 @@ This is guidance, not a substitute for local expertise. Doses come from publishe
 
 ## Team
 
-Saurav Samhal, Atharva R Ankad, Hiya Porwal and Neelabja Mukhopadhyay.
+Saurav Samhal, Atharva R Ankad, Hiya Porwal, Vatsal Jain and Neelabja Mukhopadhyay.
 
 ## License
 
