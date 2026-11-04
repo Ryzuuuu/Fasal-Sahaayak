@@ -1,0 +1,8 @@
+Crop production for Indian states and districts (filtered to Odisha):
+https://www.kaggle.com/datasets/pyatakov/india-agriculture-crop-production/data
+
+Crop, soil nutrient and fertilizer labels. Kept only for the audit in ml/audit_fertilizer_dataset.py:
+https://www.kaggle.com/datasets/shankarpriya2913/crop-and-soil-dataset
+
+Monthly weather from NASA POWER, downloaded by ml/fetch_nasa_weather.py:
+https://power.larc.nasa.gov/

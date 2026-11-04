@@ -1,0 +1,5 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Oriya', system-ui, sans-serif;
+}
