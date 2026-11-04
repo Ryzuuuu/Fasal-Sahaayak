@@ -1,0 +1,78 @@
+{
+  "split": "train: seasons before 2016; test: 2016 onwards",
+  "baseline": "mean yield of the previous 3 seasons",
+  "train_rows": 7841,
+  "test_rows": 1768,
+  "model_all_crops": {
+    "r2": 0.908,
+    "mae_t_per_ha": 0.892,
+    "median_ape_percent": 20.7
+  },
+  "baseline_all_crops": {
+    "r2": 0.907,
+    "mae_t_per_ha": 0.891,
+    "median_ape_percent": 19.5
+  },
+  "model_excluding_sugarcane": {
+    "r2": 0.724,
+    "mae_t_per_ha": 0.294,
+    "median_ape_percent": 20.9
+  },
+  "baseline_excluding_sugarcane": {
+    "r2": 0.753,
+    "mae_t_per_ha": 0.271,
+    "median_ape_percent": 19.6
+  },
+  "per_crop": {
+    "Groundnut": {
+      "test_rows": 238,
+      "model_mae_t_per_ha": 0.327,
+      "baseline_mae_t_per_ha": 0.315
+    },
+    "Maize": {
+      "test_rows": 185,
+      "model_mae_t_per_ha": 0.497,
+      "baseline_mae_t_per_ha": 0.476
+    },
+    "Moong(Green Gram)": {
+      "test_rows": 244,
+      "model_mae_t_per_ha": 0.119,
+      "baseline_mae_t_per_ha": 0.119
+    },
+    "Ragi": {
+      "test_rows": 114,
+      "model_mae_t_per_ha": 0.149,
+      "baseline_mae_t_per_ha": 0.142
+    },
+    "Rapeseed &Mustard": {
+      "test_rows": 107,
+      "model_mae_t_per_ha": 0.07,
+      "baseline_mae_t_per_ha": 0.072
+    },
+    "Rice": {
+      "test_rows": 338,
+      "model_mae_t_per_ha": 0.621,
+      "baseline_mae_t_per_ha": 0.529
+    },
+    "Sesamum": {
+      "test_rows": 173,
+      "model_mae_t_per_ha": 0.081,
+      "baseline_mae_t_per_ha": 0.083
+    },
+    "Sugarcane": {
+      "test_rows": 88,
+      "model_mae_t_per_ha": 12.308,
+      "baseline_mae_t_per_ha": 12.732
+    },
+    "Urad": {
+      "test_rows": 255,
+      "model_mae_t_per_ha": 0.11,
+      "baseline_mae_t_per_ha": 0.11
+    },
+    "Wheat": {
+      "test_rows": 26,
+      "model_mae_t_per_ha": 0.743,
+      "baseline_mae_t_per_ha": 0.707
+    }
+  }
+}

@@ -1,0 +1,16 @@
+services:
+  backend:
+    build: ./backend
+    environment:
+      - TRUSTED_PROXIES=1
+      # Optional: set in your shell or a .env file to enable free AI chat.
+      - LLM_API_KEY
+      - LLM_BASE_URL
+      - LLM_MODEL
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
